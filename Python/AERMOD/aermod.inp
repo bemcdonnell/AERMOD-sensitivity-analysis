@@ -1,0 +1,123 @@
+**To run this GE field study input file, copy it as "AERMOD.INP" and type:
+**
+**    AERMOD
+**
+**-----------------------------------------------------------------6  
+
+CO STARTING
+   TITLEONE  EC2.5, 10/13/2010, 1307, for GE field study 
+   MODELOPT  CONC FLAT
+   POLLUTID  EC2.5
+   AVERTIME  1
+   URBANOPT  100000  
+   FLAGPOLE  1.7
+   RUNORNOT  RUN
+   ERRORFIL  GE_ERRORS.LST
+CO FINISHED
+  
+**------------------------------------- 18
+SO STARTING
+   ELEVUNIT  METERS
+**           SrcID  Srctyp Xs1   Ys1    Xs2  Ys2
+   LOCATION  N1     LINE   58.8 -501.9 39.1  -330.1
+** SRCDESCR  NB MIDDLE LINE 10
+   LOCATION  N2     LINE   39.1  -330.1  24.2  -214.5
+** SRCDESCR  NB MIDDLE LINE 1
+   LOCATION  N3     LINE  24.2  -214.5  17.6  -149.2
+** SRCDESCR  NB MIDDLE LINE 2
+   LOCATION  N4     LINE  17.6  -149.2  15.1  -85.6
+** SRCDESCR  NB MIDDLE LINE 3
+   LOCATION  N5     LINE   15.1  -85.6  14.8  -47.0
+** SRCDESCR  NB MIDDLE LINE 4
+   LOCATION  N6     LINE  14.8  -47.0  16.0  -1.2
+** SRCDESCR  NB MIDDLE LINE 5
+   LOCATION  N7     LINE   16.0  -1.2  19.0  47.5
+** SRCDESCR  NB MIDDLE LINE 6
+   LOCATION  N8     LINE   19.0  47.5  29.8  146.4
+** SRCDESCR  NB MIDDLE LINE 7
+   LOCATION  N9     LINE  29.8  146.4  40.8  213.3  
+** SRCDESCR  NB MIDDLE LINE 8
+   LOCATION  N10    LINE  40.8  213.3  60.1  304.9
+** SRCDESCR  NB MIDDLE LINE 9
+   LOCATION  S11    LINE  28.2  312.1  15.3  249.3
+** SRCDESCR  SB MIDDLE LINE 11
+   LOCATION  S12    LINE  15.3  249.3  8.5  211.4
+** SRCDESCR  SB MIDDLE LINE 10
+   LOCATION  S13    LINE   8.5  211.4  1.5  166.8
+** SRCDESCR  SB MIDDLE LINE 9
+   LOCATION  S14    LINE  1.5  166.8  -5.2  115.9
+** SRCDESCR  SB MIDDLE LINE 8
+   LOCATION  S15    LINE  -5.2  115.9  -11.3  53.2
+** SRCDESCR  SB MIDDLE LINE 7
+   LOCATION  S16    LINE  -11.3  53.2  -14.5  1.1
+** SRCDESCR  SB MIDDLE LINE 6
+   LOCATION  S17    LINE  -14.5  1.1  -15.6  -45.7
+** SRCDESCR  SB MIDDLE LINE 5
+   LOCATION  S18    LINE  -15.6  -45.7  -15.3  -81.8
+** SRCDESCR  SB MIDDLE LINE 4
+   LOCATION  S19    LINE  -15.3  -81.8  -12.6  -141.7
+** SRCDESCR  SB MIDDLE LINE 3
+   LOCATION  S20    LINE  -12.6  -141.7  -6.4  -212.4
+** SRCDESCR  SB MIDDLE LINE 2
+   LOCATION  S21  LINE   -6.4  -212.4  8.8  -335.0
+** SRCDESCR  SB MIDDLE LINE 1
+   LOCATION  S22   LINE   8.8  -335.0  30.5  -512.0
+** SRCDESCR  SB MIDDLE LINE 12
+
+**        Srcid Lnemis  Relhgt Width Szinit --66
+**              g/(s-m2)  m     m      m
+   SRCPARAM   N1   2.8562E-07   1.44   24.26   2.87
+   SRCPARAM   N2   2.7094E-07   1.44   25.575   2.87
+   SRCPARAM   N3   2.7706E-07   1.44   25.01   2.87
+   SRCPARAM   N4   2.7415E-07   1.44   25.275   2.87
+   SRCPARAM   N5   2.6559E-07   1.44   26.09   2.87
+   SRCPARAM   N6   2.5962E-07   1.44   26.69   2.87
+   SRCPARAM   N7   2.5664E-07   1.44   27   2.87
+   SRCPARAM   N8   2.5735E-07   1.44   26.925   2.87
+   SRCPARAM   N9   2.4412E-07   1.44   28.385   2.87
+   SRCPARAM   N10   2.3441E-07   1.44   29.56   2.87
+   SRCPARAM   S11   2.5268E-07   1.49   24.7   2.97
+   SRCPARAM   S12   2.6547E-07   1.49   23.51   2.97
+   SRCPARAM   S13   2.6451E-07   1.49   23.595   2.97
+   SRCPARAM   S14   2.6423E-07   1.49   23.62   2.97
+   SRCPARAM   S15   2.6479E-07   1.49   23.57   2.97
+   SRCPARAM   S16   2.6301E-07   1.49   23.73   2.97
+   SRCPARAM   S17   2.8440E-07   1.49   21.945   2.97
+   SRCPARAM   S18   3.1050E-07   1.49   20.1   2.97
+   SRCPARAM   S19   3.0820E-07   1.49   20.25   2.97
+   SRCPARAM   S20   3.0371E-07   1.49   20.55   2.97
+   SRCPARAM   S21   3.0745E-07   1.49   20.3   2.97
+   SRCPARAM   S22   3.4292E-07   1.49   18.2   2.97
+   URBANSRC  ALL
+   SRCGROUP  ALL
+
+SO FINISHED
+**-------------------------------------
+
+RE STARTING
+**           Xcoord Ycoord Zflag
+   DISCCART  30.92  -2.15  1.7
+   DISCCART  49.89  -3.31  1.7
+   DISCCART  59.87  -3.68  1.7
+   DISCCART  69.85  -4.54  1.7
+   DISCCART  119.76 -7.59  1.7
+   DISCCART  219.57 -13.69 1.7
+RE FINISHED                                                                  
+**------------------------------------- 
+
+ME STARTING
+   SURFFILE CinWil2010.sfc
+   PROFFILE CinWil2010.pfl
+   SURFDATA 93814 2010 
+   UAIRDATA 13841 2010
+   PROFBASE 0.0 METERS
+**          Strtyr Strtmn Strtdy Endyr Endmn Enddy
+   STARTEND 2010 10 13 08  2010 10 13 08
+ME FINISHED
+**--------------------------------------
+
+OU STARTING
+   DAYTABLE 1
+   POSTFILE 1 ALL PLOT  GE_PLOT.PLOT
+OU FINISHED
+
