@@ -1,11 +1,11 @@
-**To run this GE field study input file, copy it as "AERMOD.INP" and type:
+**To run this field study input file, copy it as "AERMOD.INP" and type:
 **
 **    AERMOD
 **
 **-----------------------------------------------------------------6  
 
 CO STARTING
-   TITLEONE  EC2.5, 10/13/2010, 1307, for GE field study 
+   TITLEONE  EC2.5, 10/13/2010, 1307, for field study 
    MODELOPT  CONC FLAT
    POLLUTID  EC2.5
    AVERTIME  1
